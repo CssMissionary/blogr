@@ -299,7 +299,7 @@ footer{
 .close-modal{
     display: none;
 }
-@media screen and (max-width: 375px){
+@media screen and (max-width: 400px){
     .arrowdown{
         display: none;
     }
