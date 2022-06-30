@@ -1,0 +1,223 @@
+ .arrowdown {
+     display: none;
+ }
+
+ .right-nav {
+     display: none;
+ }
+
+ .hamburger {
+     display: block;
+     margin-left: 170px;
+ }
+
+ .hero-text h1 {
+     font-size: 25px;
+     padding: 0 70px;
+ }
+
+ .hero-text p {
+     font-size: 16px;
+     margin-top: 20px;
+     color: rgba(255, 255, 255, 0.764);
+     padding: 0 70px;
+ }
+
+ .block {
+     order: 2;
+     width: 100%;
+ }
+
+ .one h2 {
+     margin-left: -40px;
+ }
+
+ .one .flex img {
+     margin-top: 50px;
+     width: 80%;
+ }
+
+ .flex {
+     flex-direction: column;
+ }
+
+ .two {
+     height: 500px;
+ }
+
+ .two .flex {
+     flex-direction: column;
+ }
+
+ .block3 h3 {
+     margin-left: -130px;
+ }
+
+ .block3 {
+     width: 100%;
+     margin-top: 240px;
+     margin-left: 60px;
+     text-align: center;
+     position: absolute;
+ }
+
+ .three .flex img {
+     margin-left: 150px;
+     width: 100%;
+ }
+
+ .block4,
+ .block5 {
+     margin-left: 40px;
+ }
+
+ footer {
+     height: 700px;
+ }
+
+ .bloglogoend {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     margin-left: -35px;
+ }
+
+ .related-topics {
+     flex-direction: column;
+     margin-left: 100px;
+ }
+
+ .product {
+     margin-top: 60px;
+ }
+
+ .company {
+     margin-left: 0;
+     margin-top: 30px;
+ }
+
+ .connect {
+     margin-left: 0;
+     margin-top: 30px;
+ }
+
+ .close {
+     display: none;
+ }
+
+ .close-modal {
+     display: none;
+     margin-left: 170px;
+ }
+
+ .modal {
+     display: block;
+     display: flex;
+     z-index: 999;
+     flex-direction: column;
+     align-items: center;
+     position: fixed;
+     height: 350px;
+     top: 70px;
+     width: 300px;
+     border-radius: 10px;
+     margin-left: 40px;
+     background-color: white;
+     overflow-y: auto;
+     display: none;
+ }
+
+ .product-title,
+ .company-title,
+ .connect-title {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     margin-top: 30px;
+ }
+
+ .product-title h3,
+ .company-title h3,
+ .connect-title h3 {
+     margin-right: 10px;
+ }
+
+ .product-modal ul,
+ .company-modal ul,
+ .connect-modal ul {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     display: none;
+     list-style: none;
+     margin-left: 20px;
+     width: 250px;
+     height: 180px;
+     background-color: rgba(0, 0, 0, 0.079);
+     margin-top: 20px;
+     border-radius: 5px;
+     padding-top: 10px;
+ }
+
+ .product-modal ul li,
+ .company-modal ul li,
+ .connect-modal ul li {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+ }
+
+ .company-modal ul {
+     height: 150px;
+ }
+
+ .connect-modal ul {
+     height: 120px;
+ }
+
+ .product-modal ul li,
+ .company-modal ul li,
+ .connect-modal ul li {
+     margin-top: 10px;
+ }
+
+ .product-modal ul a,
+ .company-modal ul a,
+ .connect-modal ul a {
+     text-decoration: none;
+     color: black;
+ }
+
+ .product-modal ul a:hover {
+     font-weight: bold;
+ }
+
+ .login-panel {
+     margin-top: 40px;
+     border-top: 1px solid rgba(0, 0, 0, 0.267);
+     width: 100%;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+ }
+
+ .menu-login {
+     margin-top: 20px;
+     text-decoration: none;
+     color: black;
+     font-size: 20px;
+ }
+
+ .btn-secondary {
+     width: 100px;
+     height: 40px;
+     border-radius: 20px;
+     border: none;
+     background-color: rgb(240, 61, 61);
+     color: white;
+     margin-top: 20px;
+     font-weight: bolder;
+     cursor: pointer;
+ }
